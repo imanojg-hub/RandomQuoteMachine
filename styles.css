@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Tinos&display=swap");
+
+* {
+  font-size: 1.5rem;
+  margin: 20px;
+  text-align: center;
+}
+body {
+  background-color: #dddddd;
+}
+
+#text {
+  font-family: "Lato";
+  font-weight: 800;
+  font-size: larger;
+  letter-spacing: 0.5vh;
+  word-spacing: 0.5vh;
+  line-height: 1.2;
+}
+
+#author {
+  font-family: "Lato";
+  font-size: 1.2rem;
+}
+#tweet-quote {
+  text-decoration: none;
+}
