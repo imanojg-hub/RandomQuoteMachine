@@ -1,27 +1,64 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Tinos&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Tinos&display=swap');
 
-* {
-  font-size: 1.5rem;
-  margin: 20px;
-  text-align: center;
-}
 body {
   background-color: #dddddd;
+  text-align: center;
 }
 
 #text {
-  font-family: "Lato";
+  font-family: 'Lato';
   font-weight: 800;
   font-size: larger;
-  letter-spacing: 0.5vh;
+  /* letter-spacing: 0.1vh; */
   word-spacing: 0.5vh;
   line-height: 1.2;
+  font-size: 1.5rem;
+  margin-top: 20px;
 }
 
 #author {
-  font-family: "Lato";
+  font-family: 'Lato';
   font-size: 1.2rem;
+  margin-top: 20px;
 }
-#tweet-quote {
+#tweet-quote,
+#new-quote {
   text-decoration: none;
+  margin-top: 20px;
+}
+
+#quote-box {
+  max-width: 60%;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+button,
+a {
+  width: 8rem;
+}
+
+@media (max-width: 768px) {
+  #text {
+    letter-spacing: 0;
+    word-spacing: 0;
+    font-size: 1.2rem;
+    width: 100%;
+  }
+  #quote-box {
+    max-width: 90vw;
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+  a {
+    margin-left: 10px;
+  }
 }
