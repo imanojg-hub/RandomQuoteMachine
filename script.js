@@ -57,5 +57,6 @@ function generateQuote() {
 
   document.getElementById("tweet-quote").href = twitterLink;
   document.getElementById("text").innerText = randomData.quote;
+  document.getElementById("text").style.letterSpacing = '1.2px'; 
   document.getElementById("author").innerText = randomData.author;
 }
