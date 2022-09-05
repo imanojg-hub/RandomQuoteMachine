@@ -61,4 +61,10 @@ a {
   a {
     margin-left: 10px;
   }
+  
+  button,a{
+    max-width: 6.5rem;
+    font-size: 12px !important;
+    font-weight: bold !important;
+  }
 }
